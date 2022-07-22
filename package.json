@@ -1,0 +1,26 @@
+{
+  "name": "nodepostgresql",
+  "version": "1.0.0",
+  "description": "Basic example of restul api with node, express and postgresql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "express",
+    "webapi",
+    "postgresql",
+    "crud"
+  ],
+  "author": "Fabian A Becerra M",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3"
+  }
+}
